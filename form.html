@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .img{
+           
+            background-attachment: fixed;  
+  background-size: 100% 100%;  
+        }
+        .l1{
+            display: flex;
+            margin: 40px;
+        }
+        .l2{
+            background-color: aliceblue;
+            padding: 20px;
+        }
+        .l3{
+            background-color: rgb(125, 250, 250);
+            padding: 20px;
+        }
+        
+        .button {
+  background-color: #60ccf6; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  align-items: center;
+        }
+        .active{
+          background-color: #8cf8fb;
+        } 
+        .nav{
+            background-color:#333;
+            color: white;
+            margin:0;  padding:0;
+            list-style-type: none;
+            text-align: left;
+            position: fixed;
+            width: 100%;
+           
+        }
+        .nav li{
+            display:inline-block;
+            padding: 13px;
+        }
+        .nav li a{
+            color:white;
+            text-decoration:none;
+            padding: 10px;
+            font-size: 25px;
+            text-transform: capitalize;
+            font-family:cursive;
+            
+        }
+        .nav a:hover{
+            color:rgb(71, 175, 245);
+            background-color:#fff;
+            border-radius: 5%;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- <a href="gym.html"><i class="fas fa-arrow-left" style="color:white;font-size: 45px;"> </i></a>  -->
+    <ul class="nav">
+        <a href="gym.html"><i class="fas fa-arrow-left" style="color:white;font-size: 45px;"> </i></a> 
+        <li><a  href="/html/new1/gym.html"><b>home</b></a></li>
+        <li><a href="/html/new1/batches1.html"><b>batches</b></a></li>
+        <li><a href="/html/new1/installment.html"><b> installment plans</b></a></li>
+        <li><a class="active" href="/html/new1/form.html"><b>admission form</b></a></li>
+        <li><a href="/html/new1/Exerciseplan.html"><b>Exercise Plans</b></a></li>
+    </ul> <br><br>
+    <h1 style="background: linear-gradient(to bottom, #5833ff 0%, #289faf 100%);font-family: Humnst777 Blk BT;color: rgb(0, 0, 0);text-align: center;font-size: 40px;text-shadow: 2px 2px 10px white;margin-top: 50px;">Admission Form </h1>
+    
+    
+    <div class="l1">
+    <div class="l2" style="width: 50%;">
+        <form action="web1.html">
+            <br>
+            <label for="fname" style="color: rgb(49, 113, 216);font-size: 25px;">First name:</label>
+            <input type="text" id="fname" name="fname" value="" size="10">
+           <label for="lname" style="color: rgb(49, 113, 216);font-size: 25px;"> &nbsp;&nbsp; &nbsp;&nbsp;Last name:</label>
+            <input type="text" id="lname" name="lname" value=""size="10"><br><br>
+            <label for="fadd" style="color: rgb(49, 113, 216);font-size: 25px;">Address:</label>
+            <input type="text" id="fadd" name="fadd" value=""size="50"><br><br>
+            <label for="gender" style="color: rgb(49, 113, 216);font-size: 25px;">Gender:</label><br>
+            <input type="radio" id="gender" name="gender" value=""><b>male</b><br>
+            <input type="radio" id="gender" name="gender" value=""><b>female</b><br>
+            <h2 style="color:rgb(256, 24, 18);font-size: 30px;">APPLICANT DURATION AND FEES</h2>
+            
+            <label for="fee" style="color: rgb(49, 113, 216);font-size: 25px;">Fee:</label><br> <br> 
+            <input  type="radio" id="fee" name="fee" value="">1 month(Rs.1000)<br>
+            <input type="radio" id="fee" name="fee" value="">3 months(Rs.2700)<br> 
+            <input type="radio" id="fee" name="fee" value="">6 months(Rs.5400)<br> 
+            <input type="radio" id="fee" name="fee" value="">1 year(Rs.8500)<br> 
+        </div>
+            <div class="l3" style="width: 50%;">
+                <h2 style="color:rgb(256, 24, 18);font-size: 30px;">PAYMENT TYPE</h2>
+                
+                <input type="radio" id="gender" name="gender" value="">Cash<br>
+                    <input type="radio" id="gender" name="gender" value="">Card<br>
+                    <h2 style="color:rgb(256, 24, 18);font-size: 30px;">TOTAL CREDIT CARD</h2>
+                
+                <label for="A1" style="color: rgb(15, 16, 99);font-size: 25px;">Name:</label>
+                    <input type="text" id="A1" name="A1" value=""size="10"><br>
+                    <label for="A2" style="color: rgb(15, 16, 99);font-size: 20px;">Surname:</label>
+                    <input type="text" id="A2" name="A2" value=""size="20"><br>
+                    <label for="A3" style="color: rgb(15, 16, 99);font-size: 20px;">Credit card no:</label><br>
+                    <input type="text" id="A3" name="A3" value=""size="8"><br>
+                    <label for="A4" style="color: rgb(15, 16, 99);font-size: 20px;">Card Expiry:</label><br>
+                    <input type="text" id="A4" name="A4" value=""size="8"><br>
+                    <lab el for="A5" style="color: rgb(15, 16, 99);font-size: 20px;">Security Code:</label><br>
+                    <input type="text" id="A5" name="A5" value=""size="4"><br>
+                    
+                   
+                </div>
+          </form>
+          
+    </div>
+ <center><button class="button">Submit</button></center>
+    <div>
+        
+    </div>
+    
+</body>
+</html>

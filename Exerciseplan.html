@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise plans</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> -->
+ <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">  -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+       *{
+           margin: 0;
+           padding: 0;
+       }
+        body{
+            background-image: url(/html/img/gym10.jfif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+        a1{
+            display: flex;
+        }
+        .button{
+            margin: 30px;
+            border:3px solid black;
+            border-radius: 6px;
+            width: 300px;
+            height: 100px;
+            margin: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+            font-weight: bold;
+            /* transition-duration: 0.4s; */
+            cursor: pointer;
+
+            
+        }
+        .btn0{
+            background-color: rgb(255, 252, 86);
+        }
+        .btn0:hover{
+            color:white;
+            background-color: black;
+             border-radius: 20px; 
+             border: 2px solid rgb(40, 216, 216);
+        }
+        .btn1{
+            background-color: rgb(221, 230, 222);
+        }
+        .btn1:hover{
+            color:white;
+            background-color: black;
+             border-radius: 20px; 
+             border: 2px solid rgb(40, 216, 216);
+        }
+        .btn2{
+            background-color:  rgb(255, 252, 86);
+        }
+        .btn2:hover{
+            color:white;
+            background-color: black;
+             border-radius: 20px; 
+             border: 2px solid rgb(40, 216, 216);
+        }
+        .btn3{
+            background-color: rgb(221, 230, 222);
+        }
+        .btn3:hover{
+            color:white;
+            background-color: black;
+             border-radius: 20px; 
+             border: 2px solid rgb(40, 216, 216);
+        }
+        .btn4{
+            background-color:  rgb(255, 252, 86);
+        }
+        .btn4:hover{
+            color:white;
+            background-color: black;
+             border-radius: 20px; 
+             border: 2px solid rgb(40, 216, 216);
+        }
+        .btn5{
+            background-color: rgb(221, 230, 222);
+        }
+        .btn5:hover{
+            color:white;
+            background-color: black;
+             border-radius: 20px; 
+             border: 2px solid rgb(40, 216, 216);
+        }
+        h1{
+            text-align: center;
+            background-color: rgb(255, 252, 86);
+            font-size: 50px;
+            font-weight: bold;
+            border: double;
+            margin:50px 25px 50px;
+            font-family: 'Roboto', sans-serif;
+        }
+        .active{
+          background-color: #8cf8fb;
+        }
+        .nav{
+            background-color:#333;
+            color: white;
+            margin-top:0;  
+            padding-left:0;
+            list-style-type: none;
+            text-align: left;
+            position: fixed;
+            width: 100%;
+          
+           
+        }
+        .nav li{
+            display:inline-block;
+            padding: 13px;
+        }
+        .nav li a{
+            color:white;
+            text-decoration:none;
+            padding: 10px;
+            font-size: 25px;
+            text-transform: capitalize;
+            font-family:cursive;
+            
+        }
+        li a:hover{
+            color:rgb(71, 175, 245);
+            background-color:#fff;
+            border-radius: 5%;
+            
+        }
+
+.act i{
+   padding-left: 10px;
+    margin-top: 10px;
+
+}
+        .act:hover {
+           color: red;
+}
+    </style>
+</head>
+<body>
+   <!-- <a  class="act" href="gym.html"><i class="fas fa-home" style="color:white;font-size: 50px;"> </i></a>   -->
+ 
+    <ul class="nav">
+      <b> <a class="act" href="gym.html"><i class="fas fa-home" style="color:white;font-size: 45px;"> </i></a>  </b>
+        <li><a href="/html/new1/gym.html"><b>home</b></a></li>
+        <li><a href="/html/new1/batches1.html"><b>batches</b></a></li>
+        <li><a href="/html/new1/installment.html"><b> installment plans</b></a></li>
+        <li><a href="/html/new1/form.html"><b>admission form</b></a></li>
+        <li><a class="active" href="/html/new1/Exerciseplan.html"><b>Exercise Plans</b></a></li>
+    </ul> <br><br>
+    <h1 style="margin-top:50px;"><i class="fab fa-facebook-messenger" style="color: brown;font-size: 45px;"></i> Weekly Exercise Plans</h1>
+ <center>
+       <button class="button btn0">
+           Monday
+       </button>
+       <button class="button btn1">
+        Tuesday
+    </button>
+    <button class="button btn2">
+        Wednesday
+    </button><br>
+    <button class="button btn3">
+      Thuseday
+    </button>
+    <button class="button btn4">
+        Friday
+    </button>
+    <button class="button btn5">
+        Saturday
+    </button>
+ 
+</center>
+    
+</body>
+</html>
